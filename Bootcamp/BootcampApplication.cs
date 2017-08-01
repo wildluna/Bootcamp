@@ -2,7 +2,7 @@
 
 namespace Bootcamp
 {
-    public class BootcampApplication : Photon.SocketServer.ApplicationBase
+    public class BootcampApplication : ApplicationBase
     {
         protected override PeerBase CreatePeer(InitRequest initRequest)
         {
