@@ -15,7 +15,11 @@ namespace BootcampClient
         /// </summary>
         public PeerStateValue ConnectionState { get { return PhotonClient.PeerState; } }
         public IPhotonPeerListener Listener { get; set; }
+        public TestClient()
+            : this(null)
+        {
 
+        }
         public TestClient(IPhotonPeerListener listener)
         {
             Listener = listener;
