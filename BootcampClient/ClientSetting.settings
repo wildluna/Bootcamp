@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BootcampClient" GeneratedClassName="ClientSetting">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.100.90</Value>
+    </Setting>
+    <Setting Name="TcpPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4530</Value>
+    </Setting>
+    <Setting Name="ApplicationName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bootcamp</Value>
+    </Setting>
+    <Setting Name="UdpPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5050</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
